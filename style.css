@@ -1,0 +1,275 @@
+    #Btn {
+      border: none;
+      color: rgb(255, 255, 255);
+      background: linear-gradient(to right, #f2ff00, #fb0606);
+      border-radius: 20px;
+      padding: 10px 30px 10px 30px;
+      font-weight: bold;
+
+    }
+
+    /* background: linear-gradient(to right, #f2ff00, #ececec); */
+    .Imag {
+      width: 200px;
+      height: 200px;
+      border: none;
+      border-radius: 50%;
+      object-fit: cover;
+      padding: 15px;
+      margin: 0 auto;
+    }
+
+    #myText {
+      background-color: #d0c4ff;
+      text-align: center;
+    }
+
+
+    .top-bar {
+      text-align: center;
+    }
+
+    #text-username {
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+      font-size: 36px;
+      font-weight: bold;
+      font-family: 'Segoe UI', sans-serif;
+      /* หรือฟอนต์อื่นตามต้องการ */
+    }
+
+    .discord-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+      text-decoration: none;
+    }
+
+    .text-discord {
+      margin: 0rem;
+      padding: 15px;
+      font-weight: bold;
+      font-family: "Mitr", sans-serif;
+
+    }
+
+    .img2 {
+      width: 70px;
+      height: 60px;
+      margin: 0 1rem;
+    }
+
+
+    .telegram-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+
+
+    .instargram-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+
+
+    .language-switcher {
+      position: fixed;
+      top: 12px;
+      right: 12px;
+    }
+
+
+
+
+    .slideshort-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+
+
+    .tiktok-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+    .discord {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .telegram {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .instargram {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .slideshort {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .tiktok {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+
+    .Btn-rl {
+      border: none;
+      border-radius: 20px;
+    }
+
+    .discord,
+    .telegram,
+    .instargram,
+    .slideshort {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .discord,
+    .telegram,
+    .instargram,
+    .slideshort,
+    .tiktok {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      /* ชิดซ้าย */
+      padding-left: 20px;
+      gap: 12px;
+      /* ช่องว่างไอคอน-ข้อความ */
+
+      width: 300px;
+      height: 70px;
+      border: none;
+      border-radius: 20px;
+
+      font-weight: bold;
+      font-size: 20px;
+      color: #e0cfff;
+
+      background: linear-gradient(270deg, #440898, #f202ff, #ffdafe);
+      background-size: 400% 400%;
+      animation: pulseGradient 6s ease infinite;
+
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .discord:hover,
+    .telegram:hover,
+    .instargram:hover,
+    .slideshort:hover,
+    .tiktok:hover {
+      transform: scale(1.05);
+      color: #fff;
+    }
+
+    @keyframes pulseGradient {
+      0% {
+        background-position: 0% 50%;
+
+      }
+
+      50% {
+        background-position: 100% 50%;
+
+      }
+
+      100% {
+        background-position: 0% 50%;
+
+      }
+    }
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Camille061/linkbio3.git
+git push -u origin main
+
+    /*  git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Camille061/linkbio2.git
+git push -u origin main */
+
+
+
